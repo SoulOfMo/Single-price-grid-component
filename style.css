@@ -1,0 +1,132 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;600&display=swap');
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general */
+
+:root {
+    --primary-1: hsl(179, 62%, 43%);
+    --primary-2: hsl(71, 73%, 54%);
+    --neutral-1: hsl(204, 43%, 93%);
+    --neutral-2: hsl(218, 22%, 67%);
+    --font: 'Karla', sans-serif;
+}
+
+body {
+    font-size: 16px;
+    font-family: var(--font);
+    background-color: var(--neutral-1);
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+main {
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+section.one {
+    background-color: white;
+    padding: 2em;
+    border-radius: 0.5em 0.5em 0 0;
+}
+
+h1 {
+    color: var(--primary-1);
+}
+
+.one p {
+    margin: 1em 0 0.7em;
+    color: var(--primary-2);
+    font-weight: 700;
+}
+
+.one span {
+    color: var(--neutral-2);
+    font-size: 0.9em;
+}
+
+.two {
+    display: flex;
+}
+
+.sub_one {
+    width: 50%;
+    background-color: var(--primary-1);
+    padding: 2em 2em 0.8em;
+    color: var(--neutral-1);
+    border-radius: 0 0 0 0.3em;
+}
+
+.sub_one p {
+    font-weight: 700;
+}
+
+p.price {
+    font-size: 1.7em;
+    padding: 0.5em 0 0.1em;
+}
+
+.price span {
+    font-size: 0.8rem;
+    color: hsl(204, 43%, 93%, 0.5);
+    vertical-align: middle;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.sub_one>span {
+    font-size: 0.9em;
+}
+
+button {
+    padding: 1em 5em;
+    margin: 2em 0;
+    width: 95%;
+    background-color: var(--primary-2);
+    border: 0;
+    border-radius: 0.3em;
+    color: var(--neutral-1);
+    font-weight: 700;
+}
+
+.sub_two {
+    width: 50%;
+    background-color: hsl(179, 62%, 43%, 0.7);
+    padding: 2em 2em 0.8em;
+    color: hsl(204, 43%, 93%, 0.8);
+    border-radius: 0 0 0.3em 0;
+}
+
+.sub_two p {
+    font-weight: 700;
+    padding-bottom: 1em;
+    color: var(--neutral-1);
+}
+
+ul {
+    list-style: none;
+    font-size: 0.8em;
+}
+
+ul li:nth-child(even) {
+    padding: 0.2em 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.attribution a {
+    color: var(--primary-1);
+    text-decoration: none;
+}
