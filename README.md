@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://github.com/SoulOfMo/Single-price-grid-component.git)
-- Live Site URL: [Live site ](https://your-live-site-url.com)
+- Live Site URL: [Live site ](https://soulofmo.github.io/Single-price-grid-component/)
 
 ## My process
 
