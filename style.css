@@ -28,7 +28,7 @@ body {
 }
 
 main {
-    max-width: 580px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
@@ -122,7 +122,7 @@ button:hover {
 
 ul {
     list-style: none;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 ul li:nth-child(even) {
